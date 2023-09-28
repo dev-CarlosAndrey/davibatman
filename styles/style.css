@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap');
+
+
+body {
+    background-image: url(../assets/city.jpg);
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+h1, h2{
+    color: white;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    width: 10rem;
+    rotate: -90deg;
+
+}
+
+p {
+    color: whitesmoke;
+}
+
+.grid {
+   column-count: 3;
+}
